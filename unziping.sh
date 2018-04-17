@@ -1,3 +1,10 @@
+# This program is used t unzip all the submission
+# after the "submissions.zip" file has been downloaded
+# and extracted. Best results if used after sorting
+
+# Author: Rece Coffin
+
+
 #Must unzip outer folder, then run this within the new submissions folder
 #unzip .zip files
 for f in *.zip

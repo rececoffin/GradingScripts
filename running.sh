@@ -1,3 +1,11 @@
+# This program will loop through all submission
+# after they have been sorted and unziped and run
+# all of the labs and the assignments
+
+# Author: Rece Coffin
+
+
+
 #loop through folders
 for i in $(ls -d */); do
     cd $i

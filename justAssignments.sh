@@ -1,9 +1,18 @@
-#Need to change the number for each section
+# This program will loop through all submissions
+# after they have been unzipped and sorted
+# and run ONLY THE ASSIGNMENT, while then opening 
+# the code for the assignment and all labs
+
+# Author: Rece Coffin
+
+
+
 for i in $(ls -d */); do
   cd $i
   #enter setX folder
   cd *
   #enter the assignment and run it
+  # Need to change for everty assignment
   cd A5
   #show the directory
   pwd
@@ -12,7 +21,7 @@ for i in $(ls -d */); do
   ./a.out
   #leave assignment
   cd ..
-  #remove the assignment folder ond view the rest of the code
+  # Loop through all directories and view the code
   for d in $(ls -d */); do
     cd $d
     pwd
